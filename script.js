@@ -6,7 +6,7 @@ var btn = document.getElementById("submit");
 
 const USERNAME = "brain";
 const PASSWORD = "damage";
-const ADDRESS = "750 N Rd, Bethel, ME, 04217! /n (BOMBER HOUSEEEEE)";
+const ADDRESS = "750 N Rd, Bethel, ME, 04217! (BOMBER HOUSEEEEE)";
 
 // When the user clicks on the button, open the modal
 btn.onclick = function () {
