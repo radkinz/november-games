@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Outfit:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+html,
+body {
+    background-color: #059033;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+label, #container {
+    font-family:'Fjalla One', sans-serif;
+}
+
+#largerContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#container {
+    background:rgba(207, 255, 226, 0.664);
+    border-radius: 25px;
+    border: 2px solid #000000;
+    padding: 20px; 
+    width: 50%;
+}
+
+/* The Modal (background) */
+.modal {
+    display: block;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
